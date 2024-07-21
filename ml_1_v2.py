@@ -7,6 +7,7 @@ no_rain_temp,no_rain_humidity=[35,50,40],[45,30,35]
 # Unknown new data point that needs to be labeled for rain or no rain
 new_data_temp,new_data_humidity=40,50
 
+'''predict unknown new data sets'''
 # Plot the data points for rain / no_rain and unknown new data
 plt.scatter(rain_temp,rain_humidity,marker='^')
 plt.scatter(no_rain_temp,no_rain_humidity,marker='o')
